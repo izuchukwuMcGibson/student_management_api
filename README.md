@@ -8,11 +8,7 @@ A simple RESTful API built with **Node.js**, **Express**, and **MongoDB** to man
 
 http://localhost:3500/api/students
 
-yaml
-Copy
-Edit
 
----
 
 ## 📦 Features
 
@@ -41,7 +37,7 @@ Edit
 **POST** `/register`
 
 **Body:**
-```json
+json
 {
   "firstName": "John",
   "lastName": "Doe",
@@ -61,8 +57,7 @@ GET /getStudents
 Response:
 
 json
-Copy
-Edit
+
 {
   "students": [...],
   "length": 5
@@ -81,9 +76,7 @@ PUT /update-student/:id
 
 Body:
 
-json
-Copy
-Edit
+
 {
   "firstName": "Jane",
   "lastName": "Smith",
@@ -95,9 +88,7 @@ DELETE /delete-student/:id
 
 Response:
 
-json
-Copy
-Edit
+
 {
   "message": "student deleted successfully"
 }
@@ -125,9 +116,7 @@ GitHub: @izuchukwuMcGibson
 Project Repo: student_management_api
 
 ✅ Setup Instructions
-bash
-Copy
-Edit
+
 # 1. Clone the repo
 git clone https://github.com/izuchukwuMcGibson/student_management_api.git
 
@@ -147,26 +136,6 @@ App runs on http://localhost:3500 by default
 📌 License
 This project is open-source and available under the MIT License.
 
-yaml
-Copy
-Edit
 
----
-
-Let me know if you want the Markdown file (`README.md`) ready to copy or download.
-
-
-
-
-
-
-
-
-
-Ask ChatGPT
-
-
-
-Tools
 
 
